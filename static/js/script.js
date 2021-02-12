@@ -35,7 +35,7 @@ var oktaSignIn = new OktaSignIn({
                 a.title = "Logout";  
                   
                 // Set the href property. 
-                a.href = "http://127.0.0.1:8000/logout";  
+                a.href = "https://okta-auth-django.herokuapp.com/logout";  
                 a.className = "logout text-center";
                   
                 // Append the anchor element to the body. 
@@ -65,7 +65,7 @@ var oktaSignIn = new OktaSignIn({
                 a.title = "Logout";  
                 a.className= "logout text-center"
                 // Set the href property. 
-                a.href = "http://127.0.0.1:8000/logout";  
+                a.href = "https://okta-auth-django.herokuapp.com/logout";  
                   
                 // Append the anchor element to the body. 
                 document.body.appendChild(a);
